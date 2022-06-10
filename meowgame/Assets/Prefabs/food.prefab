@@ -184,7 +184,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2112444086346770920}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -247,6 +247,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instance: {fileID: 0}
   originScale: {x: 0, y: 0, z: 0}
-  totalTime: 0.5
+  totalTime: 1
   itemScore: 10
   Scoreboard: {fileID: 0}
+  gameover: {fileID: 0}
+  lifemode: {fileID: 0}

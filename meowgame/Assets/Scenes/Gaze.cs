@@ -19,22 +19,25 @@ public class Gaze : MonoBehaviour
     static int life = 3;
     public Text gameover;
     public Text lifemode;
-    Vector3 target = new Vector3(0f, 0.5f, 161.82f);
+    public Text retry;
+    Vector3 target = new Vector3(0f, 1.2f, 219.6f);
 
     void Start()
-    {
-        
+    { 
         instance = this.gameObject;
         originScale = instance.transform.localScale; 
         Scoreboard = GameObject.Find("board").GetComponent<Text>();
-        gameover = GameObject.Find("over").GetComponent<Text>();
         lifemode = GameObject.Find("life").GetComponent<Text>();
+        gameover = GameObject.Find("over").GetComponent<Text>();
+        retry = GameObject.Find("retry").GetComponent<Text>();
+
     }
 
     void Update()
     {
         if(life==0){
             gameover.text = "Game Over";
+            retry.text = "다시하기";
         }
         else{
 
@@ -42,6 +45,7 @@ public class Gaze : MonoBehaviour
             Debug.Log("go");
 
             if (instance.transform.position == target){
+                Debug.Log("checkin");
                 if(gameObject.CompareTag("bad")){
                     life -= 1;
                     lifemode.text = "Life : "+ life.ToString();
@@ -55,7 +59,7 @@ public class Gaze : MonoBehaviour
 
                 if(gvrTimer > totalTime){
                     score += itemScore;
-                    Scoreboard.text = score.ToString();
+                    Scoreboard.text = "Score : "+score.ToString();
                     Destroy(instance);
                 }
             }
