@@ -402,6 +402,7 @@ GameObject:
   - component: {fileID: 2375014738105729971}
   - component: {fileID: 2442011601908806469}
   - component: {fileID: 262504416015762445}
+  - component: {fileID: 6858368794189853684}
   m_Layer: 0
   m_Name: blue car
   m_TagString: bad
@@ -416,8 +417,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3152079928932718857}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 10.056816, y: -12.619563, z: -20.916618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.056816, y: -12.01, z: -20.916618}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 8488037290406342128}
@@ -425,7 +426,7 @@ Transform:
   - {fileID: 1926924979786156594}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2442011601908806469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,10 +485,23 @@ MonoBehaviour:
   instance: {fileID: 0}
   originScale: {x: 0, y: 0, z: 0}
   totalTime: 0.5
-  itemScore: -10
+  itemScore: 0
   Scoreboard: {fileID: 0}
   gameover: {fileID: 0}
   lifemode: {fileID: 0}
+--- !u!65 &6858368794189853684
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3152079928932718857}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.06, y: 1.78, z: 2.74}
+  m_Center: {x: 0, y: 0.71, z: 0}
 --- !u!1 &5221993860770432543
 GameObject:
   m_ObjectHideFlags: 0
