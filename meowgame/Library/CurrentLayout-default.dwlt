@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 63
+  controlID: 66
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 64
+  controlID: 67
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 65
+  controlID: 68
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -433,34 +433,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scenes/useSCENE
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scenes/useSCENE
   m_LastFoldersGridSize: 57
   m_LastProjectPath: C:\Users\wlgus\Desktop\ewhameowfinal\meowfinal\meowgame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 120}
-    m_SelectedIDs: 06390000
-    m_LastClickedID: 14598
-    m_ExpandedIDs: 000000000439000006390000103900005a3900005c3900001241000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: d63d0000
+    m_LastClickedID: 15830
+    m_ExpandedIDs: 00000000c23d0000c43d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Urban_building
-      m_OriginalName: Urban_building
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 14688
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -474,7 +474,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000439000006390000
+    m_ExpandedIDs: 00000000c23d0000c43d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -526,7 +526,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 33.5}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 57
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 362
@@ -599,18 +599,18 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1ce2faff64f8fafffa14fbff0025fbff4427fbfffa39fbff1253fbff5655fbff4259fbff8a5bfbffce5dfbff1260fbffaa63fbfff265fbff1c79fbff387efbff9c80fbff5a9efbffa0a0fbff08acfbffeeaefbff2ac8fbff6446fdfffe5bfdffa464fdffe667fdff2c6afdff7a6cfdff2a80fdff6c83fdffca85fdff2088fdff708efdff629ffdffaca1fdff86e9fdffd0edfdffbaeefdffa4effdff2e05fefff013feff1219feff9e1bfeff5444feffbc47feffd24cfeff8250feffc85bfefff064feff3667feff8069feffca6bfeff186efeff0877feff1a7cfeffb27dfeffaea7feffb2abfeff92b0feff7ab5feff34d8feffe8fffeffa40fffff3010ffffd813ffff6217ffff9017ffffd61bffff7221ffff3a26ffff2029ffff382effff7632ffff8432ffff4850ffff7a53ffffe058ffff1e5dffff485dffff8266ffff9066ffffd66bffffe66bffff0c71ffffcc76ffff9a7affffac7affffd880ffff2685ffffb088ffffb48bffffce8bffff3a99ffff8a9cffffc49fffff52a8ffff48afffff02b4ffffc8c8ffffccc8ffffd4c8ffff84c9ffff7ccbfffff2cbffff66cffffffcd1ffff42d4ffff92d6ffffd0d8ffff1edbffff68ddfffff2deffff3ce1ffff9ce4ffff9ee4ffffa2e7fffff0e9ffff3eecffffdef8ffff4cfaffff68fbffff90390000d4390000f8390000183a00006c3a00008e5b0000a65b0000c85b0000ea5b0000ee5b0000fa5b0000d895000092960000369700001cb3000056b300008ab30000eac60000a0c7000030c800006ac80000a4cd0000e8cd0000cece0000decf000010d1000032d10000c0d40000a4e80000d2e900000cea00009aea0000e2ea000030eb000056eb0000da0a0100e4150100a8160100162501004825010054580100a2610100f66201003e9d01004caa01001eab010046b301003abd0100900302007a050200061a0200281a02004e1a0200b6280200a65e0200ba770200847b0200087c0200367c02006099020082990200e4990200f6990200129a0200829a02009c9a0200b69a020050aa020072aa0200a2ea0200c4ea0200eaeb020010ec020034f00200f602030096090300a0090300b8090300ca0c0300c41a0300d61a0300f21a03002436030000430300
+      m_ExpandedIDs: 9803ffffb403ffffdc06ffffe006ffffec0bffff760fffffae13ffffec15ffff3218ffff3a20ffff3ca4ffff9ab0ffffb0ceffffb0d5ffffc6daffff5edfffffa4e3ffff10e8ffffcaeaffff88efffff98f6ffff68fbffffae980000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: tutorial
-        m_OriginalName: tutorial
+        m_Name: GvrEditorEmulator
+        m_OriginalName: GvrEditorEmulator
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 210434
+        m_UserData: -8466
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -659,9 +659,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -22.352324, y: 1.4037485, z: 128}
+    m_Target: {x: 0, y: 2.4, z: 213.92}
     speed: 2
-    m_Value: {x: -22.352324, y: 1.4037485, z: 128}
+    m_Value: {x: 0, y: 2.4, z: 213.92}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -707,17 +707,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.01
   m_Rotation:
-    m_Target: {x: 0.035284013, y: -0.8265599, z: 0.052142072, w: 0.5593224}
+    m_Target: {x: 0.00016552847, y: -0.9996888, z: 0.023997158, w: 0.0068962323}
     speed: 2
-    m_Value: {x: 0.0352839, y: -0.8265572, z: 0.052141905, w: 0.5593206}
+    m_Value: {x: 0.0001655284, y: -0.9996883, z: 0.023997147, w: 0.006896229}
   m_Size:
-    m_Target: 25.005924
+    m_Target: 0.8660283
     speed: 2
-    m_Value: 25.005924
+    m_Value: 0.8660283
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 0.9
     m_SpeedNormalized: 0.44723618
