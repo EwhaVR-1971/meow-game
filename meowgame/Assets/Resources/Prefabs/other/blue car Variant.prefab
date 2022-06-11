@@ -70,12 +70,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instance: {fileID: 0}
   originScale: {x: 0, y: 0, z: 0}
-  totalTime: 0.7
+  totalTime: 1.2
   itemScore: -10
   Scoreboard1: {fileID: 0}
   gameover1: {fileID: 0}
-  lifemode1: {fileID: 0}
   retry1: {fileID: 0}
+  timescore: {fileID: 0}
 --- !u!1001 &5495088699463675490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85,8 +85,13 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4124861194835660458, guid: 26b773107f9886940bbccc2b0eab50ef,
         type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124861194835660458, guid: 26b773107f9886940bbccc2b0eab50ef,
+        type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8121985121802411140, guid: 26b773107f9886940bbccc2b0eab50ef,
         type: 3}
@@ -163,7 +168,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: blue car Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4124861194835660458, guid: 26b773107f9886940bbccc2b0eab50ef, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 26b773107f9886940bbccc2b0eab50ef, type: 3}
 --- !u!1 &4016855510181587036 stripped
 GameObject:

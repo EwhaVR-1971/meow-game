@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 677, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 66
+  controlID: 15
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 475
     height: 731
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 345
     height: 451
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -217,10 +217,10 @@ MonoBehaviour:
     y: 0
     width: 1061
     height: 731
-  m_MinSize: {x: 402, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 67
+  controlID: 16
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,10 +242,10 @@ MonoBehaviour:
     y: 0
     width: 1061
     height: 451
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 68
+  controlID: 17
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -433,20 +433,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/useSCENE
+    - Assets/Resources/Prefabs/other
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Scenes/useSCENE
+  - Assets/Resources/Prefabs/other
   m_LastFoldersGridSize: 57
   m_LastProjectPath: C:\Users\wlgus\Desktop\ewhameowfinal\meowfinal\meowgame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d63d0000
-    m_LastClickedID: 15830
-    m_ExpandedIDs: 00000000c23d0000c43d000000ca9a3b
+    scrollPos: {x: 0, y: 101}
+    m_SelectedIDs: 3c450000
+    m_LastClickedID: 17724
+    m_ExpandedIDs: 00000000423f0000443f0000463f0000983f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -474,7 +474,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c23d0000c43d0000
+    m_ExpandedIDs: 00000000423f0000443f0000463f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -599,21 +599,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 9803ffffb403ffffdc06ffffe006ffffec0bffff760fffffae13ffffec15ffff3218ffff3a20ffff3ca4ffff9ab0ffffb0ceffffb0d5ffffc6daffff5edfffffa4e3ffff10e8ffffcaeaffff88efffff98f6ffff68fbffffae980000
+      m_ExpandedIDs: bccfffffdacfffffc6d0ffff04d3ffff10d8ffff9adbffffd2dfffff10e2ffff68e4ffffd6f3ffff20f6ffff66f8ffff68fbffff86410000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: GvrEditorEmulator
-        m_OriginalName: GvrEditorEmulator
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -8466
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -659,9 +659,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 2.4, z: 213.92}
+    m_Target: {x: 0.5, y: 0.4000001, z: 141.9}
     speed: 2
-    m_Value: {x: 0, y: 2.4, z: 213.92}
+    m_Value: {x: 0.5, y: 0.4000001, z: 141.9}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -707,13 +707,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.01
   m_Rotation:
-    m_Target: {x: 0.00016552847, y: -0.9996888, z: 0.023997158, w: 0.0068962323}
+    m_Target: {x: 0.004468932, y: -0.99462885, z: 0.09126354, w: 0.048991237}
     speed: 2
-    m_Value: {x: 0.0001655284, y: -0.9996883, z: 0.023997147, w: 0.006896229}
+    m_Value: {x: 0.0044688527, y: -0.9946112, z: 0.091261916, w: 0.048990365}
   m_Size:
-    m_Target: 0.8660283
+    m_Target: 16.37121
     speed: 2
-    m_Value: 0.8660283
+    m_Value: 16.37121
   m_Ortho:
     m_Target: 0
     speed: 2

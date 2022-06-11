@@ -29,6 +29,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEditor.UI.dll:
+    - UnityEditor.EventSystems.EventTriggerEditor
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -186,6 +188,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14120}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
@@ -395,8 +399,6 @@ ScriptsOnlyBuild:
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
@@ -1450,4 +1452,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/useSCENE/Mode.unity
   - Assets/Scenes/useSCENE/Nightmode.unity
   - Assets/Scenes/useSCENE/Scoremode.unity
-  playerPath: C:/Users/wlgus/Desktop/ewhameowfinal/meowfinal/basic8.apk
+  playerPath: C:/Users/wlgus/Desktop/ewhameowfinal/meowfinal/final.apk

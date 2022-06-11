@@ -11,7 +11,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.14, y: 0.23, z: 0.47}
+  m_Size: {x: 0.29, y: 0.29, z: 0.47}
   m_Center: {x: 0, y: 0.11, z: 0}
 --- !u!114 &1147751820088288139
 MonoBehaviour:
@@ -70,12 +70,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instance: {fileID: 0}
   originScale: {x: 0, y: 0, z: 0}
-  totalTime: 0.5
+  totalTime: 1.5
   itemScore: 30
   Scoreboard1: {fileID: 0}
   gameover1: {fileID: 0}
-  lifemode1: {fileID: 0}
   retry1: {fileID: 0}
+  timescore: {fileID: 0}
 --- !u!1001 &6092755553029885782
 PrefabInstance:
   m_ObjectHideFlags: 0

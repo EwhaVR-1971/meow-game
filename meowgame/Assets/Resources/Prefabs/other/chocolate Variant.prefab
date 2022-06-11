@@ -57,12 +57,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instance: {fileID: 0}
   originScale: {x: 0, y: 0, z: 0}
-  totalTime: 0.4
+  totalTime: 1
   itemScore: -10
   Scoreboard1: {fileID: 0}
   gameover1: {fileID: 0}
-  lifemode1: {fileID: 0}
   retry1: {fileID: 0}
+  timescore: {fileID: 0}
 --- !u!1001 &3884867387551382171
 PrefabInstance:
   m_ObjectHideFlags: 0
