@@ -31,7 +31,7 @@
   밤의 도시에서 고양이를 구하라! Day mode가 레벨 1이라면 Night mode는 레벨 3!<br>
   생명 3개를 모두 잃으면 GAME OVER<br>
   
-- Time Attack 
+- Time Attack<br>
   Time Attack mode에서는 생명이 무제한!<br>
   500점을 달성하는데까지 걸리는 시간이 내 점수! <br>
 
