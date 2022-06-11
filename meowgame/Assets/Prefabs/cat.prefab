@@ -205,11 +205,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instance: {fileID: 0}
   originScale: {x: 0, y: 0, z: 0}
-  totalTime: 0.5
+  totalTime: 1.3
   itemScore: 30
   Scoreboard: {fileID: 0}
   gameover: {fileID: 0}
   lifemode: {fileID: 0}
+  retry: {fileID: 0}
 --- !u!65 &-5241836378603905194
 BoxCollider:
   m_ObjectHideFlags: 0

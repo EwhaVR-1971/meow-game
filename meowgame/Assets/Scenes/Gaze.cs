@@ -13,10 +13,10 @@ public class Gaze : MonoBehaviour
     float gvrTimer;
     bool gvrStatus;
     float speed = 0.01f;
-    static int score = 0;
+    static int score=0;
     public int itemScore;
     public Text Scoreboard;
-    static int life = 3;
+    static int life=3;
     public Text gameover;
     public Text lifemode;
     public Text retry;
@@ -38,6 +38,8 @@ public class Gaze : MonoBehaviour
         if(life==0){
             gameover.text = "Game Over";
             retry.text = "다시하기";
+            life = 3;
+            score = 0;
         }
         else{
 
