@@ -6,7 +6,7 @@
 자동차로부터, 초콜릿으로부터, 고양이들을 지켜주자! <br>
 
 # Tech
-Google Cardboard VR [link](https://arvr.google.com/cardboard/)
+Google Cardboard VR [link](https://arvr.google.com/cardboard/)<br>
 Unity 2019.4.36f1 [link](https://unity.com/kr)
 
 # Install
