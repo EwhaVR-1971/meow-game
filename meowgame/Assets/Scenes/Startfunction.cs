@@ -18,7 +18,7 @@ public class Startfunction : MonoBehaviour
         if(gvr==2){
             timer += Time.deltaTime;
             if(timer > 1){
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(4);
             }
         }
         if(gvr==3){
@@ -38,7 +38,7 @@ public class Startfunction : MonoBehaviour
         gvr =2;
     }
 
-    public void looktutor(){
+    public void lookTutor(){
         gvr =3;
     }
 

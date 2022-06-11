@@ -157,3 +157,4 @@ MonoBehaviour:
   Scoreboard: {fileID: 0}
   gameover: {fileID: 0}
   lifemode: {fileID: 0}
+  retry: {fileID: 0}
