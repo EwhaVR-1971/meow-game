@@ -19,13 +19,22 @@
 사용자를 향해 전방에서 날아오는 고양이, 아이템들을 시선을 통해 없애는 게임.<br>
 화면 중앙의 포인터를 오브젝트에 가져다대면 일정 시간 이후 사라지고, 점수를 얻는다.<br>
 나쁜 아이템을 먹을 경우 생명 감소!<br>
+![11](https://user-images.githubusercontent.com/61587396/173175782-327c3f3f-cc65-4342-88d1-9be4f15734d6.png)
+
 
 
 # Game Mode
 - Day mode <br>
-  낮의 도시에서 고양이를 구하라! 
-- Night mode
-- Score mode 
+  낮의 도시에서 고양이를 구하라! 나쁜 아이템을 먹으면 생명이 줄어든다!<br>
+  생명 3개를 모두 잃으면 GAME OVER<br>
+  
+- Night mode<br>
+  밤의 도시에서 고양이를 구하라! Day mode가 레벨 1이라면 Night mode는 레벨 3!<br>
+  생명 3개를 모두 잃으면 GAME OVER<br>
+  
+- Time Attack 
+  Time Attack mode에서는 생명이 무제한!<br>
+  500점을 달성하는데까지 걸리는 시간이 내 점수! <br>
 
 
 
